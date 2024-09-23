@@ -35,9 +35,6 @@
    ```
    $ stress --cpu 1 --timeout 600
    ```
-
-   <br>
-   <br>
    
    ### 2. 그런 다음 두번째 터미널에서 uptime 을 실행하여 평균 부하의 변화를 확인한다.
    ```
@@ -51,8 +48,6 @@
    <br>
    **1분간 부하가 점점 증가하더니 최대 부하가 된 모습**
 
-   <br>
-   <br>
    
    ### 3. 세 번째 터미널에서 mpstat을 실행하여 CPU 사용량의 변화를 관찰
    - P ALL : 모든 CPU 코어의 통계정보  표시 ex) -P 0은 0번 코어
@@ -70,10 +65,6 @@
    ```
    ![image](https://github.com/user-attachments/assets/847cfca5-91dd-40f2-9b31-9c3b1b605524)
    stress 프로세스의 cpu 사용량이 100% 라는 것을 확인
-
-
-   <br>
-   <br>
    
 
 ## 📝시나리오 2: I/O 집약적인 프로세스 
