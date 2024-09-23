@@ -21,11 +21,11 @@
 
 
 
-- ## 필수 도구 📦
+- ## 필수 도구 🛠️
   - `stress`
   - `sysstat` (`mpstat`, `pidstat` 포함)
 
-- ## 설치 방법
+- ## 설치 방법 📦
   - ```bash
     $ sudo apt install stress sysstat
     
